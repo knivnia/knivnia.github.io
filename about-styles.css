@@ -1,0 +1,18 @@
+body {
+    background-image: url("images/about-back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: #FFC5C5;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFEBD8;
+    text-align: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    border: 5px solid #89B9AD;
+    border-radius: 17.5px;
+    background-color: #ddd;
+}
+
+.percentage {
+    height: 100%;
+    background-color: #89B9AD;
+    border-radius: 1px;
+    animation: progress 1500ms ease-in 1;
+    text-align: left;
+    padding: auto;
+}
+
+.python {
+    width: 70%;
+}
+.c {
+    width: 25%;
+}
+.sql {
+    width: 70%;
+}
+.django {
+    width: 85%;
+}
+.restapi {
+    width: 85%;
+}
+.cloud {
+    width: 50%;
+}
+.github {
+    width: 95%;
+}
+.docker {
+    width: 75%;
+}
+.psql {
+    width: 95%;
+}
+.mysql {
+    width: 95%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+p {
+    line-height: 2px;
+}

@@ -1,0 +1,52 @@
+.git_img {
+    width: 50px;
+    height: 50px;
+    background: url("images/github.svg") no-repeat;
+    display: inline-block;
+}
+.git_img:hover {
+    background: url("images/github-inv.svg") no-repeat;
+}
+
+.email_img {
+    width: 50px;
+    height: 50px;
+    background: url("images/email-closed.svg") no-repeat;
+    display: inline-block;
+}
+.email_img:hover {
+    background: url("images/email-open.svg") no-repeat;
+}
+
+.in_img {
+    width: 50px;
+    height: 50px;
+    background: url("images/linkedin.svg") no-repeat;
+    display: inline-block;
+}
+.in_img:hover {
+    background: url("images/linkedin-inv.svg") no-repeat;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+* {
+    font-family: "Optima", serif;
+    color: black;
+    text-align: center;
+    font-size: 1.5vh;
+}
