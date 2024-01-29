@@ -38,10 +38,10 @@ body {
     width: 70%;
 }
 .c {
-    width: 25%;
+    width: 30%;
 }
 .sql {
-    width: 70%;
+    width: 80%;
 }
 .django {
     width: 85%;
@@ -50,7 +50,7 @@ body {
     width: 85%;
 }
 .cloud {
-    width: 50%;
+    width: 70%;
 }
 .github {
     width: 95%;
